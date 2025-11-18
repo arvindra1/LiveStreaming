@@ -1,5 +1,5 @@
 {
-  "name": "@api.video/react-native-livestream",
+  "name": "react-native-rtmp-livestream",
   "version": "2.0.2",
   "description": "RTMP live streaming library from api.video",
   "main": "lib/commonjs/index",
@@ -13,6 +13,7 @@
     "android",
     "ios",
     "cpp",
+    "!example",
     "*.podspec",
     "!lib/typescript/example",
     "!ios/build",
@@ -29,7 +30,6 @@
   "scripts": {
     "test": "jest",
     "typecheck": "tsc --noEmit",
-    "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepack": "bob build",
     "release": "release-it",
     "example": "yarn --cwd example",
